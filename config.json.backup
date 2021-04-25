@@ -1,0 +1,18 @@
+{
+  "FTX_API_KEY": "YOUR_FTX_API_KEY",
+  "FTX_API_SECRET": "YOUR_FTX_API_SECRET",
+  "CRON_JOB_AT_MINUTE": 30,
+  "accounts": [
+    {
+      "subAccount": "",
+      "lendingCoins": [{ "coin": "ETH", "keepBalance": 0, "minimunHourlyRate": 0.000001, "decimals": 8 }]
+    },
+    {
+      "subAccount": "MY_SUB_ACCOUNT",
+      "lendingCoins": [
+        { "coin": "SNX", "keepBalance": 0, "minimunHourlyRate": 0.000001 },
+        { "coin": "1INCH", "keepBalance": 10, "minimunHourlyRate": 0.000001 }
+      ]
+    }
+  ]
+}
